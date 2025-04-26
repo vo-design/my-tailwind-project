@@ -1,10 +1,11 @@
 const App = () => {
     return (
-        <div className="min-h-screen flex items-center justify-center bg-gray-100 perpspective-1000">
-            <div
-                className="bg-blue-500 h-96 w-96 flex items-center justify-center text-white text-4xl font-bold transform-style-3d transform hover:scale-150 hover:translate-z-20 transition-transform duration-300">3D
-                Scale
+        <div className="min-h-screen flex items-center justify-center bg-gray-100 gap-8">
+            <div className="bg-linear-45 from-blue-500 to-green-500 p-8 rounded text-2xl font-bold text-white">Angled
+                Gradient
             </div>
+            <div className="size-64 rounded-full bg-conic-180 from-indigo-600 via-indigo-50 to-indigo-600"></div>
+            <div className="bg-radial from-yellow-500 to-red-500 size-64 rounded-full"></div>
         </div>
     )
 }
