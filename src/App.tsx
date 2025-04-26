@@ -1,11 +1,9 @@
 const App = () => {
     return (
-        <div className="min-h-screen flex items-center justify-center bg-gray-100 gap-8">
-            <div className="bg-linear-45 from-blue-500 to-green-500 p-8 rounded text-2xl font-bold text-white">Angled
-                Gradient
-            </div>
-            <div className="size-64 rounded-full bg-conic-180 from-indigo-600 via-indigo-50 to-indigo-600"></div>
-            <div className="bg-radial from-yellow-500 to-red-500 size-64 rounded-full"></div>
+        <div className="min-h-screen grid gap-4 place-items-center bg-deepblue">
+            <input type="text" placeholder="Search for..."  className="inset-shadow-sm inset-shadow-amber-500 border-4 rounded-sm w-96 h-18 p-4 text-xl text-amber outline-none"/>
+            <input type="text" placeholder="Search for..."  className="inset-shadow-sm inset-shadow-amber-500 ring-4 rounded-sm w-96 h-18 p-4 text-xl text-amber outline-none"/>
+            <input type="text" placeholder="Search for..."  className="inset-ring-4 inset-ring-amber-500 rounded-sm w-96 h-18 p-4 text-xl text-amber outline-none"/>
         </div>
     )
 }
