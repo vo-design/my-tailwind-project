@@ -1,9 +1,11 @@
 const App = () => {
     return (
-        <div className="min-h-screen grid gap-4 place-items-center bg-deepblue">
-            <input type="text" placeholder="Search for..."  className="inset-shadow-sm inset-shadow-amber-500 border-4 rounded-sm w-96 h-18 p-4 text-xl text-amber outline-none"/>
-            <input type="text" placeholder="Search for..."  className="inset-shadow-sm inset-shadow-amber-500 ring-4 rounded-sm w-96 h-18 p-4 text-xl text-amber outline-none"/>
-            <input type="text" placeholder="Search for..."  className="inset-ring-4 inset-ring-amber-500 rounded-sm w-96 h-18 p-4 text-xl text-amber outline-none"/>
+        <div className="min-h-screen flex items-center justify-center bg-gray-100">
+            <ul className="space-y-4 text-center">
+                <li className="bg-gray-200 p-4 rounded text-lg not-active:bg-red-500">Item 1</li>
+                <li className="active bg-gray-200 p-4 rounded text-lg">Item 2</li>
+                <li className="bg-gray-200 p-4 rounded text-lg not-active:bg-red-500">Item 3</li>
+            </ul>
         </div>
     )
 }
